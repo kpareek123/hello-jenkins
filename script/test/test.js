@@ -1,5 +1,5 @@
 var request = require('supertest');
-var app = require('/root/GitApp/hello-jenkins/app.js');
+var app = require('../../app.js');
  
 describe('GET /', function() {
   it('respond with hello world', function(done) {
